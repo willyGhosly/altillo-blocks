@@ -17,7 +17,7 @@
 if (!defined('ABSPATH')) exit;
 
 define('ASCB_PATH', plugin_dir_path(__FILE__));
-define('ASCB_VERS', time());
+define('ASCB_VERS', '1.0.1');
 
 /**
  * SCRIPTS & STYLES
