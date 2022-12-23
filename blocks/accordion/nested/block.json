@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "altillo-blocks/accordion-nested",
+    "title": "Accordion nested",
+    "category": "widgets",
+    "parent": [
+        "altillo-blocks/accordion-core"
+    ],
+    "icon": "smiley",
+    "description": "Accordion nested",
+    "version": "0.0.1",
+    "textdomain": "altillo-blocks",
+    "attributes": {
+        "title": {
+            "type": "string",
+            "source": "html",
+            "selector": "span",
+            "default": "Titulo de la sección."
+        },
+        "id": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "editorScript": "file:./build/index.js"
+}

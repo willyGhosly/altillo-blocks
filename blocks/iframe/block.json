@@ -1,0 +1,29 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "altillo-blocks/iframe",
+    "title": "Abrir Iframe",
+    "category": "widgets",
+    "icon": "format-video",
+    "description": "Abrir iframe mediante iframe html code.",
+    "version": "0.0.1",
+    "textdomain": "altillo-blocks",
+    "keywords": [
+        "iframe",
+        "open",
+        "popup",
+        "embed",
+        "code"
+    ],
+    "attributes": {
+        "name": {
+            "type": "string",
+            "default": "Agregar un titulo."
+        },
+        "code": {
+            "type": "string",
+            "default": ""
+        }
+    },
+    "editorScript": "file:./build/index.js"
+}

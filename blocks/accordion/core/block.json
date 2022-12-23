@@ -1,0 +1,15 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "altillo-blocks/accordion-core",
+    "title": "Accordion",
+    "category": "widgets",
+    "icon": "editor-ul",
+    "description": "Accordion",
+    "keywords": [
+        "accordion"
+    ],
+    "version": "0.0.1",
+    "textdomain": "altillo-blocks",
+    "editorScript": "file:./build/index.js"
+}
