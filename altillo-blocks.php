@@ -1,17 +1,17 @@
 <?php
 
 /**
- * Plugin Name      : Altillo Blocks
- * Description      : Custom Block From AltilloStudioCreativo (ASC).
- * Plugin URI       : https://desdeelaltillo.com/
- * Version          : 0.0.1
- * Requires at least: 5.2
- * Requires PHP     : 7.2
- * Author           : Willy Ghostly
- * Author URI       : https://desdeelaltillo.com/
- * License          : GPL v2 or later
- * License URI      : https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain      : altillo-blocks
+ * Plugin Name:         Altillo Blocks
+ * Description:         Custom Block From AltilloStudioCreativo (ASC).
+ * Plugin URI:          https://desdeelaltillo.com/
+ * Version:             1.0.1
+ * Requires at least:   5.2
+ * Requires PHP:        7.2
+ * Author:              Willy Ghostly
+ * Author URI:          https://desdeelaltillo.com/
+ * License:             GPL v2 or later
+ * License URI:         https://www.gnu.org/licenses/gpl-2.0.html
+ * Text Domain:         altillo-blocks
  * */
 
 if (!defined('ABSPATH')) exit;
